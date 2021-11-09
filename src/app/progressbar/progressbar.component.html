@@ -1,0 +1,10 @@
+<div class="container" (click)="onClick()">
+    <h1 class="label">{{label}}</h1>
+    <div class="background">
+        <div [ngStyle]="{'width.%':value}" class="progress">
+            <h1 class="value">{{value}}%</h1>
+        </div>
+    </div>
+</div>
+
+
